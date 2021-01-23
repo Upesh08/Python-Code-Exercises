@@ -1,4 +1,4 @@
-#Basics related to Exponential Function: 
+## Basics related to 'e'
 
 e is one of the most important constants in mathematics. We cannot write e as a fraction and it has an infinite number of decimal places - just like its famous cousin, pi (π).
 The Exp (x) function is used to determine e raised to the power of x. e has plenty of names in mathematics. We may know it as Euler's number or the natural number.
