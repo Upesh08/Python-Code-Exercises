@@ -1,5 +1,5 @@
 # Binary to Decimal & back Converter.
-# In this program, user will be giving a number as an input and converts it to bindary/decimal equivalent based on the user's choice. 
+# In this program, user will be giving a number as an input and the program converts it to bindary/decimal equivalent based on the user's choice. 
 # Developer: Upesh Maharana 
 # Dated: 2021/02/12
 
@@ -17,7 +17,6 @@ def convertBinDec(n,ch):
         for i in range(len(num)):
             g = int(math.pow(2,i) * int(num[i]))
             Sum += g
-
         return Sum
     
     if ch==2:
@@ -34,9 +33,7 @@ def convertBinDec(n,ch):
         
         digits.reverse() # for reversing the list to get the right binary digit 
         return "".join(str(i) for i in digits)
-   
     
-
 def Main():
     """
     This method creates a menu for the user to select and input his/her choice. 
