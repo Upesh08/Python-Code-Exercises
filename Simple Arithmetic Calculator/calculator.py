@@ -3,8 +3,6 @@
 # Developer: Upesh Maharana 
 # Dated: 2021/02/15
 
-import math
-
 def calculate(a,b,op):
     """
     This method helps in calculating the result.
